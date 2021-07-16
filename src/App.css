@@ -3,6 +3,7 @@
   place-items: center;
   height:100vh;
   background-color: #dadbd3;
+  overflow:hidden;
 }
 .App__body{
   display:flex;

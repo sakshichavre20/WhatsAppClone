@@ -5,6 +5,9 @@ import ChatIcon from "@material-ui/icons/Chat";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import SearchIcon from "@material-ui/icons/Search";
 import { Avatar, IconButton } from '@material-ui/core';
+import SidebarChat from './SidebarChat';
+
+
 function Sidebar() {
     return (
       <div className="Sidebar">
@@ -28,9 +31,20 @@ function Sidebar() {
             <input
               type="text"
               placeholder="search or a new chat"
-              style={{ background: "#323739" }}
+              style={{ background: "#323739", color: "#B1B3B5" }}
             />
           </div>
+        </div>
+        <div className="sidebar__chats">
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
+          <SidebarChat />
         </div>
       </div>
     );
