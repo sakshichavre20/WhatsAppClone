@@ -60,6 +60,8 @@
 }
 .sidebar__chats{
     border-left-width: 0.3px ;
+    overflow-y: scroll;
+    overflow-x: hidden;
     /* border-color:grey;
     border-style: groove;
     border-bottom-width: 0.1px; */
